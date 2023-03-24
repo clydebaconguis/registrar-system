@@ -1,0 +1,107 @@
+.client-solo-page {
+    font-family: "Roboto Condensed", Sans-Serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.client-page-top {
+
+    flex: 2;
+    width: fit-content;
+    grid-gap: 5px;
+    padding-bottom: 5px;
+
+}
+
+.client-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.admin-client-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.client-top-tor {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: fit-content;
+}
+
+.client-top-tor-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.client-top-purpose {
+    font-size: 13px;
+    text-transform: uppercase;
+    width: fit-content;
+    font-weight: lighter;
+
+}
+
+.client-page-status {
+    width: 48%;
+
+}
+
+.client-page-date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.messages-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    border-top: 2px solid gray;
+    padding: 10px 0px;
+
+}
+
+.message-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    border-bottom: 0.5px solid rgb(180, 175, 175);
+}
+
+.message-date {
+    font-size: 8px;
+    cursor: context-menu;
+    width: fit-content;
+}
+
+.message-date:hover {
+
+    font-size: 12px;
+}
+
+.messages {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: red
+}
+
+
+@media screen and (max-width: 920px) {
+    .client-page-status {
+        width: 45%;
+        height: 100%;
+
+    }
+
+}

@@ -1,0 +1,125 @@
+.date-main-container {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 0px;
+    box-shadow: -1px 1px 4px 5px rgba(4, 20, 9, 0.79);
+    -webkit-box-shadow: -1px 1px 4px 5px rgba(4, 20, 9, 0.79);
+    -moz-box-shadow: -1px 1px 4px 5px rgba(4, 20, 9, 0.79);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(206, 231, 215);
+    text-transform: uppercase;
+    z-index: 5;
+}
+
+.date-top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.date-input-container {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+    border-bottom: 1px solid gray;
+
+
+
+}
+
+.date-label {
+
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    width: fit-content;
+    margin-bottom: 5px;
+}
+
+.date-input {
+    width: 99%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+
+.date-bottom-main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.date-bottom-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.date-bottom {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 20%;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.date-text {
+
+    text-transform: uppercase;
+}
+
+
+.date {
+    color: green;
+}
+
+.date:hover {
+    background-color: green;
+    color: white;
+}
+
+
+.cancel {
+    color: red;
+}
+
+.cancel:hover {
+    background-color: red;
+    color: white;
+}
+
+.DELETE {
+    background-color: rgb(211, 198, 198);
+    box-shadow: 1px -1px 3px 4px rgba(134, 8, 8, 1);
+    -webkit-box-shadow: 1px -1px 3px 4px rgba(134, 8, 8, 1);
+    -moz-box-shadow: 1px -1px 3px 4px rgba(134, 8, 8, 1);
+}
+
+.DELETE:hover {
+    background-color: rgb(225, 170, 170);
+
+}

@@ -1,0 +1,344 @@
+.tor-main-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    display: flex;
+    font-family: "Roboto Condensed", Sans-Serif;
+    height: 100%;
+    width: auto;
+    padding: 0px 30px 0px 30px;
+    border: 1px solid gray;
+    padding: 20px 20px;
+
+}
+
+.back-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.tor-upload-image-container {
+
+    display: flex;
+
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.tor-image-main-container {
+    width: fit-content;
+    background-color: white;
+    margin: 0px 2% 0px 0px;
+}
+
+
+
+.tor-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    color: gray;
+}
+
+.tor-image {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.image-input {
+    display: none;
+}
+
+.input-file-label-container {
+    display: flex;
+    width: 99%;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-bottom: 5px;
+
+}
+
+.input-file-label {
+    cursor: pointer;
+    width: fit-content;
+    border-bottom: 1px solid black;
+}
+
+.add-request-info {
+    font-size: 8;
+    color: gray;
+}
+
+.tor-top-inputs-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+
+}
+
+.tor-input-email {
+    width: 98.7%;
+
+}
+
+.tor-top-inputs {
+    display: flex;
+    margin-bottom: 10px;
+    width: 49%;
+}
+
+.tor-select-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tor-notenrolled {
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tor-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tor-title-top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.tor-radio-button {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0%;
+    gap: 10px;
+    text-align: left;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 0px;
+
+}
+
+.tor-notenrolled-select {
+    width: fit-content;
+    padding: 5px 0px 0px 0px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-left: 5px;
+}
+
+
+
+
+.first-container {
+    margin-top: 0px;
+    width: 100%;
+}
+
+.tor-purpose {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-size: 13px;
+    gap: 10px;
+
+}
+
+.tor-second-container {
+    display: flex;
+
+}
+
+.tor-certificates-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.tor-form-text {
+    text-align: left;
+    border-top: 2px solid gray;
+    padding-top: 20px;
+    ;
+}
+
+.tor-select {
+    height: 20px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.tor-btn-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0px;
+
+}
+
+.tor-btn {
+
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border: 2px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+.tor-btn:hover {
+    background-color: lightgreen;
+}
+
+.tor-title-container {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.tor-message {
+
+    width: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+
+.success-message {
+    color: green;
+    font-size: 12px;
+}
+
+
+
+@media screen and (max-width: 920px) {
+
+    .tor-bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .tor-main-container {
+        padding: 0px 10px 0px 10px;
+        font-size: 10px;
+        gap: 20px;
+    }
+
+    .tor-top-inputs {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+        width: 100%;
+        text-align: left;
+    }
+
+
+    .tor-form-text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tor-notenrolled-select {
+        font-size: 10px;
+    }
+
+
+    .tor-top {
+        font-size: 10px;
+
+    }
+
+    .tor-top-inputs-container {
+
+        gap: 0px;
+    }
+
+    .tor-select-top {
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
+
+    }
+
+    .tor-input-email {
+
+        width: 100%;
+
+    }
+
+    .tor-certificates-container {
+        display: flex;
+        align-items: center;
+        padding: 5px 0px;
+    }
+
+    .tor-select {
+        font-size: 10px;
+        padding: 0px;
+        height: fit-content;
+    }
+
+    .tor-image-container {
+        display: flex;
+        text-align: center;
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .input-file-label-container {
+        display: flex;
+        width: 99%;
+        justify-content: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 12px;
+        border-top: none;
+        padding-bottom: 5px;
+    }
+
+
+
+    .input-file-label {
+        font-size: 10px;
+    }
+
+
+    .tor-title-container {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+}

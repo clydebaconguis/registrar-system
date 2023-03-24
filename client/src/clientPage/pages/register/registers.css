@@ -1,0 +1,53 @@
+.registers-main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 3% 0% 10% 0%;
+    background-color: #bcccdc;
+
+}
+
+
+.registers-form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.registers-img {
+    width: 300px;
+}
+
+.registers-title {
+    color: #daca33;
+    font-size: 40px;
+    text-align: center;
+}
+
+.registers-btn {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #c1b019;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+.register-register-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

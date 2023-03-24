@@ -1,0 +1,9 @@
+.admin-home-container {
+    display: flex;
+    background-color: #fff;
+}
+
+.admin-home-wrapper {
+    flex: 6;
+    flex-direction: column;
+}

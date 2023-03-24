@@ -1,0 +1,194 @@
+.homepage-main-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100%;
+    background-color: #d9e2ec;
+    background-repeat: no-repeat;
+    padding: 20px 0px;
+    align-items: center;
+    font-family: "Roboto Condensed", Sans-Serif;
+}
+
+.home-page-stats {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.home-request-form {
+
+    border: 2px solid black;
+}
+
+
+
+
+@keyframes slide-from-left {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.home-page-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0px;
+    color: black;
+}
+
+.homepage-bottom {
+    width: 100%;
+    display: flex;
+    border-top: 2px solid black;
+    justify-content: center;
+
+}
+
+.carousel-option {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+.homepage-top {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.home-carousel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 20px;
+    animation: slide-from-left 1s ease-in-out;
+    border-top: 2px solid black;
+}
+
+
+
+
+.btn-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #fff;
+    border-top: none;
+
+}
+
+.carousel-btn {
+    font-size: 30px;
+    margin: 20px 0px 20px 0px;
+    background-color: transparent;
+    color: black;
+    font-weight: bolder;
+    border: none;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+
+.carousel-btn:hover {
+    color: green;
+}
+
+.homepage-text {
+    font-size: 50px;
+}
+
+.homepage-forms {
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+}
+
+
+.homepage-btn-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+
+
+    font-size: 30px;
+    /* background-color: transparent; */
+    color: black;
+
+    gap: 2px;
+    border: none;
+}
+
+
+.homepage-bottom-container {
+    background-color: #fff;
+
+    width: fit-content;
+    height: fit-content;
+    text-align: left;
+
+}
+
+.home-page-icon {
+    font-size: 30px;
+    margin: 10px 30px 0px 0px;
+
+    cursor: pointer;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 920px) {
+
+    .home-carousel {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+    .homepage-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        gap: 10px;
+        animation: slide-from-left 1s ease-in-out;
+        align-items: center;
+
+    }
+
+
+
+    .homepage-main-container {
+        display: flex;
+        justify-content: initial;
+        flex-direction: column;
+        height: 100%;
+        opacity: 10;
+        background-color: #d9e2ec;
+        /* background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url('../../components/images/phinma2.jpg'); */
+        background-repeat: no-repeat;
+        padding: 20px 0px;
+        align-items: center;
+        width: auto;
+    }
+
+}

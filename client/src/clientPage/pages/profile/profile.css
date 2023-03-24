@@ -1,0 +1,44 @@
+.profile-container {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 100%;
+    flex-wrap: wrap;
+    padding: 2% 0%;
+    gap: 10px;
+}
+
+
+.profile-main-form {
+
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 45%;
+    text-align: center;
+    border: 2px solid black;
+    padding: 1%;
+}
+
+@media screen and (max-width: 920px) {
+    .profile-main-form {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .profile-main-form {
+
+        background-color: #fff;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        border: 2px solid black;
+        padding: 1%;
+    }
+
+}

@@ -1,0 +1,136 @@
+.confirm-main-container-hold {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 0px;
+    box-shadow: 1px -1px 3px 4px rgba(134, 8, 8, 1);
+    -webkit-box-shadow: 1px -1px 3px 4px rgba(134, 8, 8, 1);
+    -moz-box-shadow: 1px -1px 3px 4px rgba(134, 8, 8, 1);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(211, 198, 198);
+    z-index: 5;
+}
+
+.confirm-main-container-approved {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 0px;
+    box-shadow: 1px -1px 3px 4px rgb(5, 61, 16);
+    -webkit-box-shadow: 1px -1px 3px 4px rgb(9, 95, 39);
+    -moz-box-shadow: 1px -1px 3px 4px rgb(8, 134, 39);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(206, 231, 215);
+    z-index: 5;
+}
+
+.confirm-form {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.confirm_top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.confirm-input-container {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 90%;
+    border-bottom: 1px solid gray;
+
+
+}
+
+.HOLD {
+    background-color: rgb(180, 154, 154);
+}
+
+.APPROVED {
+    background-color: rgb(207, 249, 200);
+}
+
+
+
+.confirm-label {
+
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    width: fit-content;
+    margin-bottom: 5px;
+}
+
+.confirm-input {
+    width: 99%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+}
+
+.confirm-bottom-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.confirm-bottom-main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.confirm-text {
+    font-size: 12px;
+    text-transform: lowercase;
+}
+
+.confirm-bottom {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 20%;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.confirm {
+    color: green;
+}
+
+.confirm:hover {
+    background-color: green;
+    color: white;
+}
+
+.cancel {
+    color: red;
+}

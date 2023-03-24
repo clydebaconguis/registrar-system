@@ -1,0 +1,54 @@
+.userprofile-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.userprofile-inputs {
+    display: flex;
+    align-items: center;
+
+}
+
+.user-profile-btn {
+
+    padding: 20px 0px 0px 0px;
+    margin: 10px 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.userprofile-edit-inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-error-message {
+    font-size: 20px;
+    color: red;
+}
+
+.successful {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+@media screen and (max-width: 920px) {
+    .userprofile-inputs {
+        width: 100%;
+
+
+    }
+
+
+
+}

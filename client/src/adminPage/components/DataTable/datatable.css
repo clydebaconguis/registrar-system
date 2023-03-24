@@ -1,0 +1,168 @@
+    .admin-dataTable {
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        width: 100%;
+    }
+
+    .search-container {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        width: 200px;
+        height: 30px;
+        padding: 5px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+
+    .admin-search-input {
+        border: none;
+        padding: 2px;
+        outline: none;
+        background-color: transparent;
+
+    }
+
+
+    .PENDING {
+        color: rgba(107, 96, 31, 0.751);
+        background-color: rgba(255, 217, 0, 0.181);
+        padding: 3px;
+        font-size: 13px;
+        border-radius: 5px;
+        font-weight: bold;
+        width: fit-content;
+    }
+
+    .APPROVED {
+        color: rgba(42, 117, 42, 0.763);
+        background-color: rgba(56, 159, 56, 0.112);
+        padding: 2px;
+        font-size: 13px;
+        border-radius: 5px;
+        font-weight: bold;
+        width: fit-content;
+    }
+
+
+    .CLAIMED {
+        color: rgba(42, 117, 42, 0.763);
+        background-color: rgba(177, 228, 177, 0.112);
+        padding: 2px;
+        font-size: 13px;
+        border-radius: 5px;
+        font-weight: bold;
+        width: fit-content;
+    }
+
+    .DECLINED {
+        color: rgba(255, 0, 0, 0.385);
+        background-color: rgba(255, 0, 0, 0.156);
+        padding: 2px;
+        font-size: 13px;
+        border-radius: 5px;
+        font-weight: bold;
+        width: fit-content;
+    }
+
+    .VALIDATING {
+        color: rgb(135, 103, 43);
+        background-color: rgba(199, 145, 45, 0.285);
+        padding: 2px;
+        font-size: 13px;
+        border-radius: 5px;
+        font-weight: bold;
+        width: fit-content;
+
+    }
+
+    .HOLD {
+
+        color: rgb(74, 63, 157);
+        background-color: rgba(107, 105, 142, 0.285);
+        padding: 2px;
+        font-size: 13px;
+        border-radius: 5px;
+        width: fit-content;
+        font-weight: bold;
+    }
+
+
+
+    .columnDate {
+        color: rgba(191, 167, 31, 0.833);
+        font-weight: bold;
+        border: 1px solid rgba(255, 170, 0, 0.656);
+        padding: 5px;
+        border-radius: 4px;
+        cursor: pointer;
+
+    }
+
+    .columnDate:hover {
+        background-color: rgb(171, 152, 39);
+        color: white;
+    }
+
+    .tableAction {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        font-size: 12px;
+        text-transform: uppercase;
+        gap: 5px;
+
+    }
+
+
+    .columnView {
+        color: rgba(75, 75, 155, 0.833);
+        font-weight: bold;
+        border: 1px solid rgba(0, 0, 255, 0.512);
+        padding: 5px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .columnView:hover {
+        background-color: rgb(52, 52, 203);
+        color: white;
+    }
+
+    .columnApprove {
+        color: rgba(42, 117, 42, 0.763);
+        border: 1px solid rgba(32, 100, 32, 0.495);
+        padding: 5px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .columnApprove:hover {
+        background-color: green;
+        color: white;
+    }
+
+    .columnDecline {
+        color: rgba(255, 0, 0, 0.385);
+        border: 1px solid rgba(255, 0, 0, 0.247);
+        padding: 5px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .columnDecline:hover {
+        background-color: red;
+        color: white
+    }
+
+    .myTable {
+        height: 100%;
+        width: 100%;
+
+    }

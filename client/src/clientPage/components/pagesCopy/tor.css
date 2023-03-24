@@ -1,0 +1,52 @@
+.tor-copy-main-container {
+    background-color: #fff;
+    display: flex;
+    font-family: "Roboto Condensed", Sans-Serif;
+    height: 100%;
+    width: auto;
+    padding: 0px 30px 0px 30px;
+
+}
+.tor-copy-first-container {
+    margin: 10px;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.tor-copy-purpose {
+    display: flex;
+    gap: 15px;
+
+}
+
+.tor-copy-second-container {
+    display: flex;
+
+}
+
+.tor-copy-certificates-container {
+    padding: 10px 0px;
+    text-align: left;
+}
+
+.tor-copy-select {
+    height: 20px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+
+.tor-copy-form-text {
+    text-align: center;
+
+}
+
+
+.tor-copy-add-request-info {
+    font-size: 8;
+    color: gray;
+}
+

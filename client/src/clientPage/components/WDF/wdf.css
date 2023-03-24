@@ -1,0 +1,252 @@
+.wdf-main-container {
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    max-width: 1000px;
+    padding: 0px 30px 0px 30px;
+    font-family: "Roboto Condensed", Sans-Serif;
+}
+
+
+.wdf-form-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wdf-top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wdf-top-inputs {
+    display: flex;
+    margin-bottom: 10px;
+    width: 49%;
+}
+
+.wdf-title {
+    font-weight: bold;
+
+}
+
+
+.wdf-top-inputs-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+}
+
+.wdf-top-inputs {
+    display: flex;
+    margin-bottom: 10px;
+    width: 49%;
+
+}
+
+.wdf-notenrolled {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wdf-select {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.wdf-notenrolled-select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 5px 0px 0px 0px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-left: 5px;
+}
+
+.wdf-notenrolled-select-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 5px 0px 0px 0px;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
+
+
+
+.wdf-radio-button {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0%;
+    gap: 10px;
+    text-align: left;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 0px;
+
+}
+
+
+.wdf-input {
+    width: fit-content;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.wdf-input:invalid[focused="true"] {
+
+    border: 1px solid red;
+    color: red;
+}
+
+.wdf-input:invalid[focused="true"]~.wdf-input-text {
+    color: red;
+}
+
+
+.wdf-bottom {
+    display: flex;
+    gap: 20px;
+
+}
+
+
+.wdf-text {
+    border: none;
+    width: 470px;
+    max-width: 470px;
+    max-height: 300px;
+    background-color: transparent;
+    outline: none;
+    margin-top: 10px;
+
+}
+
+.wdf-input-text {
+    font-size: 12px;
+    padding: 1px 5px 5px 0px;
+    color: gray;
+}
+
+.wdf-text-area {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px 5px 5px 0px;
+    margin-top: 10px;
+    padding: 0px 5px;
+    margin-bottom: none;
+}
+
+
+.wdf-btn-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0px;
+
+}
+
+.add-request-info {
+    font-size: 13px;
+    color: gray;
+}
+
+.wdf-btn {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border: 2px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+.wdf-btn:hover {
+    background-color: lightgreen;
+}
+
+
+
+@media screen and (max-width: 920px) {
+
+
+    .wdf-bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .wdf-main-container {
+        padding: 0px 10px 0px 10px;
+        font-size: 10px;
+        gap: 20px;
+
+    }
+
+    .wdf-top-inputs {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+        width: 100%;
+        text-align: left;
+    }
+
+
+    .wdf-form-text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .wdf-notenrolled-select {
+        font-size: 10px;
+    }
+
+    .wdf-top {
+        font-size: 10px;
+
+    }
+
+    .wdf-top-inputs-container {
+
+        gap: 0px;
+    }
+
+    .wdf-radio-button {
+
+        margin-bottom: 5px;
+        gap: 5px;
+
+    }
+
+
+    .wdf-text {
+
+        width: 100%;
+
+
+    }
+
+
+
+}

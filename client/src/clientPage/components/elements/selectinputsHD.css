@@ -1,0 +1,30 @@
+.select-inputs-hd-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.select-inputs-HD {
+    max-width: 200px;
+    width: max-content;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-left: 5px;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 920px) {
+
+  
+
+    .select-inputs-HD {
+        font-size: 10px;
+    }
+
+
+}

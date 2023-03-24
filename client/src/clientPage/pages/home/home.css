@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@400;700&display=swap");
+
+
+:root {
+
+    /* //colors */
+    --primary-50: #ebe28e;
+    --primary-100: #e6dc77;
+    --primary-200: #e2d660;
+    --primary-300: #ded049;
+    --primary-400: #daca33;
+    --primary-500: #d6c41c;
+    --primary-600: #c1b019;
+    --primary-700: #ab9d16;
+    --primary-800: #968914;
+    --primary-900: #807611;
+
+    /* font style */
+    --headingFont: "Roboto Condensed", Sans-Serif;
+}
+
+
+.home-main-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    padding-bottom: 15%;
+}
+
+
+.home-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+
+.home-logo-container {
+    width: 100%;
+    height: auto;
+    text-align: left;
+
+
+}
+
+.home-logo {
+    height: 100%;
+    width: 250px;
+}
+
+.home-first-container {
+    align-items: center;
+    justify-content: center;
+}
+
+.home-second-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+
+
+}
+
+.home-title-container {
+    margin-top: 30%;
+    width: 400px;
+    text-align: left;
+
+}
+
+h1 {
+    font-family: var(--headingFont);
+}
+
+p {
+    font-family: var(--headingFont);
+}
+
+.home-title {
+    display: flex;
+
+}
+
+.home-texts {
+    margin-left: 8px;
+}
+
+.home-image-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.home-image {
+    width: 400px;
+    margin-top: 30%;
+}
+
+.home-btn {
+    height: 30px;
+    width: 150px;
+    color: white;
+    background-color: var(--primary-600);
+    font-family: var(--headingFont);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.home-btn:hover {
+    background-color: var(--primary-200);
+}

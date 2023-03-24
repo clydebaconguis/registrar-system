@@ -1,0 +1,35 @@
+.profile-input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    font-family: "Roboto Condensed", Sans-Serif;
+    max-width: 540px;
+
+}
+
+.profile-select {
+
+    padding: 15px;
+    margin: 10px 0px;
+    background-color: #f0f4f8;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+
+}
+
+
+@media screen and (max-width: 920px) {
+
+    .profile-input-container {
+        width: 100%;
+        margin: 0px 10px;
+    }
+
+    .profile-select {
+        margin-top: 0px;
+        ;
+    }
+
+}

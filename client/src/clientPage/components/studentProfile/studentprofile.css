@@ -1,0 +1,138 @@
+.profile-main-container {
+    display: flex;
+    background-color: #fff;
+    height: 100%;
+}
+
+.profile-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+.profile-icon {
+    height: 80px;
+    width: 80px;
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.profile-input-container {
+    width: 100%;
+
+}
+
+.profile-first-container {
+
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 10%;
+
+}
+
+
+.profile-btn-main-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+}
+
+.profile-btn-container {
+    display: flex;
+    width: 100%;
+
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.profile-btn {
+    width: fit-content;
+    margin: 0px 20px;
+    font-size: 20px;
+    background-color: transparent;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+.profile-input-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+    height: fit-content;
+}
+
+
+
+
+.profile-radio-button {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+    margin-top: 0%;
+    gap: 3px;
+    text-align: left;
+    justify-content: center;
+
+}
+
+.profile-notenrolled {
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile-notenrolled-select {
+    width: fit-content;
+    padding: 5px 0px 0px 0px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-left: 5px;
+
+}
+
+@media screen and (max-width: 920px) {
+    .profile-btn {
+        width: fit-content;
+    }
+
+    .profile-form {
+
+        width: 100%;
+    }
+
+    .registerinput-main-container {
+        width: 100%;
+        padding: 0px 0px;
+        margin: 5px 0px;
+    }
+
+    .profile-first-container {
+        width: 100%;
+    }
+
+    .profile-main-container {
+        font-size: 12px;
+    }
+
+}

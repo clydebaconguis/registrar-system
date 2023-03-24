@@ -1,0 +1,53 @@
+.admin-navbar-container {
+    border-bottom: 1px solid rgb(124, 108, 108);
+    height: 100px;
+    padding: 4.04px;
+  
+}
+
+.admin-navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.admin-search-icon {
+    font-size: 22px;
+    color: rgb(68, 65, 65);
+
+    border-radius: 5px;
+    border: none;
+}
+
+
+.admin-navbar-search {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(155, 133, 133);
+    height: 25px;
+    padding: 3px;
+    border-radius: 5px;
+
+}
+
+.admin-navbar-input {
+    width: 200px;
+    border: none;
+    outline: none;
+    height: 100%;
+    background-color: transparent;
+
+}
+
+.admin-navbar-btn {
+    background-color: rgb(204, 194, 194);
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.admin-navbar-btn:hover {
+    background-color: rgb(235, 226, 226);
+}

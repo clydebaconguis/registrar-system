@@ -1,0 +1,170 @@
+.navbar-container {
+    background-color: #486581;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    width: 100%;
+
+    padding-bottom: 2rem;
+}
+
+
+
+
+.navbar-second-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+}
+
+.navbar-first-container {
+    width: 400px;
+
+    text-align: left;
+}
+
+
+
+.navbar-logo {
+    height: auto;
+    width: 300px;
+    color: white;
+}
+
+
+.menu-bars {
+
+    font-size: 2rem;
+    background: none;
+    color: #d6c41c;
+
+    padding-right: 20px;
+
+
+}
+
+
+.nav-menu {
+    background-color: #d9e2ec;
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: -100%;
+    transition: 850ms;
+    top: 0;
+
+
+}
+
+.nav-menu.active {
+    z-index: 10;
+    left: 0;
+    transition: 350ms;
+    width: 250px;
+    background-color: #486581;
+
+
+}
+
+.nav-text {
+    display: flex;
+
+    align-items: center;
+    padding: 8px 0px 8px 0px;
+    list-style: none;
+    height: 60px;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+}
+
+.nav-links {
+    font-family: "Roboto Condensed", Sans-Serif;
+    ;
+
+}
+
+.nav-links.activated {
+    color: #ab9d16;
+}
+
+.nav-text a:hover {
+    background-color: #0f5132;
+    color: white;
+}
+
+.nav-menu-items {
+    width: 100%;
+    margin-top: 10%;
+}
+
+
+
+.nav-span {
+    margin-left: 16px;
+}
+
+/* .navbar-btn {
+    height: 20px;
+    width: 150px;
+    background-color: #d6c41c;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar-btn:hover {
+    width: 100px;
+    border-radius: 5px;
+} */
+
+@media screen and (max-width: 920px) {
+
+    .navbar-second-container {
+        display: flex;
+        justify-content: center;
+
+        width: 100%;
+
+    }
+
+    .menu-bars {
+
+        font-size: 2rem;
+        background: none;
+        color: #d6c41c;
+
+
+
+
+
+    }
+
+    .navbar-first-container {
+
+
+        text-align: center;
+    }
+
+
+
+
+}

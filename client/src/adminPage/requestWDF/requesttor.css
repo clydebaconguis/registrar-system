@@ -1,0 +1,22 @@
+.admin-tor-container {
+
+    display: flex;
+    background-color: #fff;
+    font-family: "Roboto Condensed", Sans-Serif;
+}
+
+.admin-tor-wrapper {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.admin-requests-widget {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+
+}

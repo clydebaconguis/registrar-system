@@ -1,0 +1,263 @@
+.hd-main-container {
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: "Roboto Condensed", Sans-Serif;
+    gap: 20px;
+
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+.hd-top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.hd-input-email {
+    width: 98.5%;
+}
+
+
+
+.hd-top {
+    display: flex;
+    width: 99.3%;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+
+.hd-title {
+    font-weight: bold;
+
+}
+
+
+.hd-top-inputs-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+}
+
+.hd-top-inputs {
+    display: flex;
+    margin-bottom: 10px;
+    width: 49%;
+
+}
+
+.hd-radio-button {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0%;
+    gap: 10px;
+    text-align: left;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 0px;
+
+}
+
+
+.hd-notenrolled {
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hd-notenrolled-select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 5px 0px 0px 0px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-left: 5px;
+}
+
+.hd-input {
+    width: 100%;
+    border: none;
+    height: 30px;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 5px 0px 0px 0px;
+
+}
+
+.hd-select {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hd-input:invalid[focused="true"] {
+
+    border: 1px solid red;
+    color: red;
+}
+
+.hd-input:invalid[focused="true"]~.hd-input-text {
+    color: red;
+}
+
+
+.hd-input-text {
+    font-size: 12px;
+    padding: 10px 5px 0px 0px;
+    color: gray;
+
+}
+
+
+.info-text {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hd-bottom {
+    display: flex;
+    gap: 20px;
+
+}
+
+
+
+
+
+
+.hd-text {
+    padding: 10px;
+    border: none;
+    max-height: 300px;
+
+    outline: none;
+    margin-top: 10px;
+
+}
+
+.hd-text-area {
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: none;
+    width: 98.5%;
+}
+
+.hd-btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0px;
+
+}
+
+
+.hd-btn {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border: 2px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+
+.add-request-info {
+    font-size: 8;
+    color: gray;
+}
+
+
+@media screen and (max-width: 920px) {
+    .hd-main-container {
+        width: auto;
+
+    }
+
+    .hd-bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .hd-top-inputs {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .hd-main-container {
+
+        padding: 0px 10px 0px 10px;
+        font-size: 10px;
+        gap: 20px;
+    }
+
+    .hd-form-text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hd-notenrolled-select {
+        font-size: 10px;
+    }
+
+    .hd-top {
+        font-size: 10px;
+
+    }
+
+    .hd-input-email {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .hd-top-inputs-container {
+
+        gap: 0px;
+    }
+
+    .hd-radio-button {
+
+        margin-bottom: 5px;
+        gap: 5px;
+
+    }
+
+
+    .hd-text-area {
+
+        width: 97.5%;
+    }
+
+
+}

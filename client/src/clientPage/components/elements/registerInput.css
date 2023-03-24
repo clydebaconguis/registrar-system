@@ -1,0 +1,57 @@
+.registerinput-main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    font-family: "Roboto Condensed", Sans-Serif;
+    ;
+
+}
+
+
+.registerinput-input {
+    padding: 15px 0px 15px 2px;
+    margin: 10px 0px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: #f0f4f8;
+    width: 100%;
+}
+
+
+.registerinput-input:invalid[focused="true"] {
+    border: 1px solid red;
+}
+
+.registerinput-input:invalid[focused="true"]~.registerinput-span {
+    display: block;
+}
+
+.registerinput-label {
+    font-size: 15px;
+    color: gray;
+}
+
+.registerinput-span {
+    font-size: 12px;
+    padding: 1px 5px 5px 5px;
+    color: red;
+    display: none;
+}
+
+@media screen and (max-width: 920px) {
+    .registerinput-main-container {
+        width: 100%;
+
+    }
+
+    .registerinput-main-container {
+        width: 100%;
+
+        font-size: 12px;
+
+    }
+
+
+}

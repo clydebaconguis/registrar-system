@@ -1,0 +1,115 @@
+.pvalues-first-container {
+    width: 100%;
+    background-color: #f0f4f8;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0px 0% 0px;
+
+}
+
+.pvalues-btn {
+    height: 35px;
+    width: 250px;
+    background-color: #d6c41c;
+    color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+
+
+
+.pvalues-second-container {
+    padding: 0% 0% 0% 2%;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+
+.pvalues-input-container {
+    width: 30%;
+    color: #102a43;
+    padding: 1% 0px 10px 0px;
+
+}
+
+.pvalues-input {
+    width: 100%;
+    border-radius: 5px;
+
+
+
+}
+
+.pvalues-radio-container {
+    text-align: left;
+    padding: 0% 0% 0% 5%;
+    margin-top: 2%;
+    width: 100%;
+
+
+
+}
+
+.pvalues-status-container {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.pvalues-notenrolled {
+    margin: 20px;
+}
+
+.pvalues-btn-container {
+    display: flex;
+    width: 100%;
+    background-color: #f0f4f8;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pvalues-main-container {
+    margin-top: 0%;
+}
+
+
+
+@media screen and (max-width: 920px) {
+    .pvalues-input-container {
+        width: 50%;
+
+        padding: 2% 0px 10px 0px;
+    }
+
+    .pvalues-radio-container {
+        text-align: left;
+        padding: 0% 0% 0% 10%;
+        margin-top: 5%;
+
+    }
+
+    .pvalues-first-container {
+        width: 100%;
+
+
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 5%;
+        flex-wrap: wrap;
+
+    }
+}
